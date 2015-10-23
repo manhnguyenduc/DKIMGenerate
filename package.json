@@ -1,0 +1,13 @@
+{
+  "name": "nodejs dkim",
+  "description": "Generate a DKIM use nodejs",
+  "version": "1.0",
+  "demos": [
+    "demo.pcloud.vn/dkim"
+  ],
+  "dependencies": {
+    "express": "",
+    "body-parser": "",
+    "node-rsa": ""
+  }
+}

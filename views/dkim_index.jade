@@ -1,0 +1,23 @@
+//
+   Created by TieuVu on 10/23/2015.
+html
+    head
+        title=title
+        link(
+        href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css',
+        rel='stylesheet'
+        )
+
+    body
+    div
+    form(action='/gendkim',method='post')
+        div(data-role='fieldcontain')
+            fieldset(data-role='controlgroup')
+            label(for='') domain
+                input(id='domain',type='text',value='',placeholder='domain',name='domain')
+
+            label(for='') bits
+                input(id='bits',type='text',value='',placeholder='1024',name='bits')
+
+        div(data-role='fieldcontain')
+            input(type='submit',value='create',data-transition='fade', data-theme='c')
